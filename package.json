@@ -1,0 +1,22 @@
+{
+  "name": "document-embedding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/bigquery": "^7.8.0",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "langchain": "^0.2.10",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
